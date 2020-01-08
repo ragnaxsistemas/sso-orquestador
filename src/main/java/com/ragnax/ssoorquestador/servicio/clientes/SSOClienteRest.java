@@ -5,7 +5,9 @@ import java.util.List;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.*;
+import com.ragnax.domain.sso.entidad.*;
+
+
 
 @FeignClient(name = "ragnax-seguridad" , url = "localhost:8082")
 public interface SSOClienteRest {

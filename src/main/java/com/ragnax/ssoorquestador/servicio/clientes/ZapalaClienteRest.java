@@ -3,14 +3,12 @@ package com.ragnax.ssoorquestador.servicio.clientes;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.Zapala;
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.ZapalaRequest;
+import com.ragnax.domain.zapala.modelo.Zapala;
+import com.ragnax.domain.zapala.modelo.ZapalaRequest;
 
-@FeignClient(name = "ragnax-zapala" , url = "localhost:8081")
+
+@FeignClient(name = "ragnax-zapala" , url = "${server.port.zapala}")
 public interface ZapalaClienteRest {
-	
-	@PostMapping("/generar-patron-rut")
-	public Zapala generarPatronRUT(ZapalaRequest zapalaRequest);
 	
 	@PostMapping("/generar-tiempo-duracion")
 	public Zapala generarTiempoDuracion(ZapalaRequest zapalaRequest);
@@ -20,8 +18,11 @@ public interface ZapalaClienteRest {
 	
 	@PostMapping("/generar-codigo-numero")
 	public Zapala generarCodigoByNumero(ZapalaRequest zapalaRequest);
-//		
+
 	@PostMapping("/generar-codigo-numero-encodear")
 	public Zapala generarCodigoByNumeroByEncodear(ZapalaRequest zapalaRequest);
+	
+	@PostMapping("/generar-patron-rut")
+	public Zapala generarPatronRUT(ZapalaRequest zapalaRequest);
 
 }

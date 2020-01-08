@@ -19,6 +19,7 @@
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
 		<swagger.version>2.9.2</swagger.version>
+		<ragnax.domain>1.0.0-SNAPSHOT</ragnax.domain>
 	</properties>
 
 	<dependencies>
@@ -68,6 +69,11 @@
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>${swagger.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.ragnax</groupId>
+			<artifactId>ragnax-domain</artifactId>
+			<version>${ragnax.domain}</version>
 		</dependency>
 	</dependencies>
 

@@ -9,12 +9,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Service;
 
+import com.ragnax.domain.sso.entidad.*;
+import com.ragnax.domain.ssoorquestador.modelo.*;
 import com.ragnax.ssoorquestador.configuration.FactoryApiProperties;
 import com.ragnax.ssoorquestador.controller.response.SSOOrquestador;
 import com.ragnax.ssoorquestador.exception.SSOOrquestadorException;
 import com.ragnax.ssoorquestador.modelo.*;
 import com.ragnax.ssoorquestador.servicio.clientes.SSOClienteRest;
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.*;
 import com.ragnax.ssoorquestador.servicio.utilidades.SSOOrquestadorMapper;
 
 

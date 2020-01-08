@@ -1,25 +1,15 @@
 package com.ragnax.ssoorquestador.servicio.utilidades;
 
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.AplicacionEmpresa;
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.AplicacionRol;
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.AplicacionServicio;
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.Empresa;
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.EmpresaUsuario;
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.EmpresaUsuarioAplicacionEmpresa;
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.Identificador;
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.Rol;
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.SeguridadAplicacionAcceso;
-import com.ragnax.ssoorquestador.modelo.AutentificacionContext;
-import com.ragnax.ssoorquestador.modelo.BasicContext;
-import com.ragnax.ssoorquestador.modelo.EnterpriseContext;
-import com.ragnax.ssoorquestador.modelo.GrupoUsuarioModel;
-import com.ragnax.ssoorquestador.modelo.SeguridadContext;
-import com.ragnax.ssoorquestador.modelo.UsuarioSeguridad;
+import com.ragnax.domain.sso.entidad.*;
+import com.ragnax.domain.ssoorquestador.modelo.*;
+
+
 
 
 

@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ragnax.ssoorquestador.controller.response.RagnaxError;
+import com.ragnax.domain.response.error.RagnaxError;
+import com.ragnax.domain.ssoorquestador.modelo.*;
 import com.ragnax.ssoorquestador.exception.SSOOrquestadorException;
-import com.ragnax.ssoorquestador.modelo.*;
 import com.ragnax.ssoorquestador.servicio.*;
 
 import io.swagger.annotations.ApiResponse;

@@ -9,10 +9,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
+import com.ragnax.domain.sso.entidad.AplicacionServicio;
+import com.ragnax.domain.sso.entidad.*;
+import com.ragnax.domain.ssoorquestador.modelo.*;
 import com.ragnax.ssoorquestador.configuration.FactoryApiProperties;
 import com.ragnax.ssoorquestador.exception.SSOOrquestadorException;
-import com.ragnax.ssoorquestador.modelo.*;
-import com.ragnax.ssoorquestador.servicio.clientes.modelo.*;
 
 @Component
 @ComponentScan(basePackageClasses = { FactoryApiProperties.class})

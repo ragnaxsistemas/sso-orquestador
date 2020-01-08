@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import com.ragnax.ssoorquestador.controller.response.RagnaxError;
+import com.ragnax.domain.response.error.RagnaxError;
 import com.ragnax.ssoorquestador.exception.SSOOrquestadorException;
 
 /**

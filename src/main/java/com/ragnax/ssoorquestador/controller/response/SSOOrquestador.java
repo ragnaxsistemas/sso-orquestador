@@ -3,12 +3,8 @@ package com.ragnax.ssoorquestador.controller.response;
 import java.io.Serializable;
 import java.util.List;
 
-import com.ragnax.ssoorquestador.modelo.AutentificacionContext;
-import com.ragnax.ssoorquestador.modelo.BasicContext;
-import com.ragnax.ssoorquestador.modelo.EnterpriseContext;
-import com.ragnax.ssoorquestador.modelo.SeguridadContext;
-import com.ragnax.ssoorquestador.modelo.TipoAccionUsuario;
-import com.ragnax.ssoorquestador.modelo.UsuarioSeguridad;
+import com.ragnax.domain.ssoorquestador.modelo.*;
+//import com.ragnax.ssoorquestador.modelo.UsuarioSeguridad;
 
 public class SSOOrquestador implements Serializable{
 

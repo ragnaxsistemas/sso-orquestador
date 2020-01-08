@@ -1,8 +1,8 @@
 package com.ragnax.ssoorquestador.servicio;
 
+import com.ragnax.domain.ssoorquestador.modelo.ConsultaSeguridad;
 import com.ragnax.ssoorquestador.controller.response.SSOOrquestador;
 import com.ragnax.ssoorquestador.exception.SSOOrquestadorException;
-import com.ragnax.ssoorquestador.modelo.ConsultaSeguridad;
 
 public interface SSOOrquestadorService {
 	
